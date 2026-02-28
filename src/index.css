@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+    /* Soft Pastels Color Palette */
+    --background: 0 0% 100%;
+    --foreground: 240 10% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 15%;
+    --primary: 168 76% 42%;           /* Verde-água (teal-500) */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 340 82% 76%;         /* Rosa suave (pink-400) */
+    --secondary-foreground: 0 0% 100%;
+    --muted: 168 30% 96%;             /* Verde-água muito suave */
+    --muted-foreground: 240 10% 40%;
+    --accent: 262 80% 78%;            /* Lavanda (purple-400) */
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 168 30% 90%;
+    --input: 168 30% 90%;
+    --ring: 168 76% 42%;
+  }
+
+  .dark {
+    --radius: 0.5rem;
+    /* Soft Pastels - Dark Mode */
+    --background: 240 10% 8%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 10%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 10%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 168 76% 50%;           /* Verde-água mais claro para dark mode */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 340 82% 80%;         /* Rosa suave mais claro para dark mode */
+    --secondary-foreground: 0 0% 100%;
+    --muted: 168 20% 20%;
+    --muted-foreground: 240 5% 70%;
+    --accent: 262 80% 82%;            /* Lavanda mais claro para dark mode */
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 168 20% 25%;
+    --input: 168 20% 25%;
+    --ring: 168 76% 50%;
+  }
+}
