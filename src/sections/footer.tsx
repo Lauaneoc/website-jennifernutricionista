@@ -1,11 +1,12 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { MessageCircle, Leaf, Instagram } from "lucide-react";
+import { MessageCircle, Leaf, Instagram, Mail } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const WHATSAPP_NUMBER = "+5511937539259";
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER.replace(/\D/g, "")}`;
+const EMAIL = "Jennifercostanutri@gmail.com";
 
 function FooterLogo() {
   const [logoSrc, setLogoSrc] = useState<string | undefined>(undefined);
@@ -74,6 +75,17 @@ export function Footer() {
                     <MessageCircle className="w-4 h-4" />
                   </div>
                   <span className="text-sm">+55 11 93753-9259</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href={`mailto:${EMAIL}`}
+                  className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors group"
+                >
+                  <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary group-hover:text-primary-foreground transition-all">
+                    <Mail className="w-4 h-4" />
+                  </div>
+                  <span className="text-sm">{EMAIL}</span>
                 </a>
               </li>
               <li>
