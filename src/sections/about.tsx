@@ -1,6 +1,6 @@
 "use client";
 
-import { GraduationCap, Heart, Target, MessageCircle, Award, Users } from "lucide-react";
+import { GraduationCap, Heart, Target, MessageCircle, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const WHATSAPP_NUMBER = "+5511937539259";

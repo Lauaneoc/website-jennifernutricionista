@@ -1,5 +1,4 @@
 import { About } from "../sections/about";
-import { CaresMethod } from "../sections/cares-method";
 import { FinalCTA } from "../sections/final-cta";
 import { Footer } from "../sections/footer";
 import { Hero } from "../sections/hero";
